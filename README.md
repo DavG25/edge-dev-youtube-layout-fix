@@ -1,5 +1,5 @@
 # Updated YouTube layout for Edge Dev
-Enable the new YouTube layout on Microsoft Edge Dev browser
+Enable the new YouTube layout on Microsoft Edge Dev browser since Google is forcing the legacy layout
 
 ## Installation
 - Enable Chrome Extensions on your Edge Dev browser by following [this guide](https://davg25.com/s?UGsxu)
@@ -7,7 +7,7 @@ Enable the new YouTube layout on Microsoft Edge Dev browser
 - Visit the [YouTube page](https://www.youtube.com/new) to confirm it works
 
 ## Common issues
-#### The layout is still the old one
+### The layout is still the old one
 This could be caused by some cookies or settings that prevent the browser from using the new layout <br />
 To solve this problem, do the following:
 - Visit the [YouTube site](https://www.youtube.com/) 
