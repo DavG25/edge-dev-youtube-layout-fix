@@ -1,8 +1,10 @@
 {
-  "name": "New YouTube Design for Edge Dev",
-  "short_name": "NYTD for Edge Dev",
-  "version": "0.0.1",
-  "description": "Unleash the new YouTube design on the Edge Dev browser",
+	"author": "DavG25",
+    "name": "New YouTube Design for Edge Dev",
+    "short_name": "NYTD for Edge Dev",
+    "version": "0.0.2",
+    "description": "Unleash the new YouTube design on the Edge Dev browser",
+	
     "permissions": ["webRequest","webRequestBlocking","*://*.youtube.com/*"],
 	
 	"background": {
@@ -20,5 +22,6 @@
 	"icons": {
       "128": "images/128.png"
     },
+	
     "manifest_version": 2
-  }
+}

@@ -1,32 +1,54 @@
-<body>
-<center>
-<h2 style="display:inline;color:#00e600;"> The New YouTube Design is enabled </h2>
+<!DOCTYPE html>
+<!--
+	interface.html
+		Main addon popup interface 
+-->
+<html>
+	<body>
+	<center>
+		<!-- Title -->
+		<h2 style="display:inline;color:#00e600;"> The new YouTube design is enabled </h2>
+		
+		<!-- Description -->
+		<h2 style="color:#ffffff;margin:15px;"> Visit <font color="#ff0000">youtube.com</font> to use it </h2>
+		
+		<!-- Footer -->
+		<div class="footer">
+			<hr>
+			<p style="color:#ffffff;margin-top:5px;">Made by DavG25</p>
+		</div>
+		
+	</center>
+	</body>
+</html>
 
-<h2 style="color:#ffffff;"> Visit <font color="#0099ff">youtube.com/new</font> to use it </h2>
-
-
-
-
-<div class="footer">
-<hr>
-<p style="color:#ffffff;margin-top:5px;">Made by DavG25</p>
-</div>
-</center>
-</body>
-
-
-<script src="settings.js"></script>
 <style>
+/* Main interface style */
+
+* {
+	cursor: default;
+	font-family: Tahoma, Geneva, sans-serif;
+	word-wrap:break-word;
+	-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none; 
+	unselectable="on";
+	onselectstart="return false;";
+	onmousedown="return false;;
+}
+
+
 body {
-background: linear-gradient(270deg, #262626, #121212);
-background-size: 400% 400%;
+	background: linear-gradient(270deg, #262626, #121212);
+	background-size: 400% 400%;
 
--webkit-user-drag: none;
-user-drag: none;
+	-webkit-user-drag: none;
+	user-drag: none;
 
--webkit-animation: AnimBG 12s ease infinite;
--moz-animation: AnimBG 12s ease infinite;
-animation: AnimBG 12s ease infinite;
+	-webkit-animation: AnimBG 12s ease infinite;
+	-moz-animation: AnimBG 12s ease infinite;
+	animation: AnimBG 12s ease infinite;
+	
+	width:350px;
+    height:100px;
 }
 
 @-webkit-keyframes AnimBG {
@@ -46,30 +68,9 @@ animation: AnimBG 12s ease infinite;
 }
 
 
-
-* {
-  cursor: default;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
-  word-wrap:break-word;
-  -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
-  unselectable="on"
-  onselectstart="return false;" 
-  onmousedown="return false;
-}
-
-h1 {
-font-size: 30px;
-color: #b200a3;
-}
-
-body{
-   width:350px;
-   height:100px;
-   
-   #background-image: linear-gradient(to top, #702ede, #845ae0, #987dde, #ae9fda, #c4c0d3);
-}
 .footer {
     position: fixed;
+	margin-top: 10px;
     left: 0;
     bottom: 0;
     width: 100%;
